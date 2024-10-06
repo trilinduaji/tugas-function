@@ -13,4 +13,12 @@ return (10 * 100) + (10 * 50) + (beratbadan - 20) * 40;
 double kegiatankeras (double beratbadan) {
 return (10 * 100) + (10 * 50) + (beratbadan - 20) * 45;
 }
-int main () {
+int main (){
+  double beratbadan;
+  int jeniskegiatan;
+  cout << "masukan Berat Badan:";
+  cin >> beratbadan;
+  cout <<"1. kegiatan biasa" << endl <<"2. kegiatan sedang" << endl << "3.kegiatan keras" << endl<<"4. tanpa kegiatan"<<endl;
+  cout << "Masukan jenis kegiatan : ";
+  cin >> jenis kegiatan;
+
