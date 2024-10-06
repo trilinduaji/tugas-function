@@ -1,4 +1,7 @@
 #include <iostream>
 using namespace std;
 
-double 
+double kebutuhan_air (double kebutuhan, double beratbadan){
+return (10 * 100) + (10 * 50) + (beratbadan - 20) * 20;
+}
+
