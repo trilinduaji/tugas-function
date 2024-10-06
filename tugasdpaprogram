@@ -22,3 +22,14 @@ int main (){
   cout << "Masukan jenis kegiatan : ";
   cin >> jenis kegiatan;
 
+if (jeniskegiatan == 1){
+cout << kegiatanbiasa (beratbadan) << "mL.";
+}else if(jeniskegiatan == 2){
+cout << kegiatansedang (beratbadan) << "mL.";
+}else if(jeniskegiatan == 3){
+cout << kegiatankeras (beratbadan) << "mL.";
+}else if(jeniskegiatan == 4){
+cout << tanpakegiatan(beratbadan) << "mL.";
+}
+return 0;
+}
