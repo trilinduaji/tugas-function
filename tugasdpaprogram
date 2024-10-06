@@ -1,7 +1,16 @@
 #include <iostream>
 using namespace std;
 
-double kebutuhan_air (double kebutuhan, double beratbadan){
+double tanpakegiatan ( double beratbadan){
 return (10 * 100) + (10 * 50) + (beratbadan - 20) * 20;
 }
-
+double kegiatanbiasa (double beratbadan) {
+return (10 * 100) + (10 * 50) + (beratbadan - 20) * 35;
+}
+double kegiatansedang (double beratbadan) {
+return (10 * 100) + (10 * 50) + (beratbadan - 20) * 40;
+}
+double kegiatankeras (double beratbadan) {
+return (10 * 100) + (10 * 50) + (beratbadan - 20) * 45;
+}
+int main () {
