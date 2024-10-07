@@ -18,9 +18,9 @@ int main (){
   int jeniskegiatan;
   cout << "masukan Berat Badan:";
   cin >> beratbadan;
-  cout <<"1. kegiatan biasa" << endl <<"2. kegiatan sedang" << endl << "3.kegiatan keras" << endl<<"4. tanpa kegiatan"<<endl;
+  cout <<"1. kegiatan biasa" << endl <<"2. kegiatan sedang" << endl << "3. kegiatan keras" << endl<<"4. tanpa kegiatan"<<endl;
   cout << "Masukan jenis kegiatan : ";
-  cin >> jenis kegiatan;
+  cin >> jeniskegiatan;
 
 if (jeniskegiatan == 1){
 cout << kegiatanbiasa (beratbadan) << "mL.";
